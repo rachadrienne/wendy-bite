@@ -1,0 +1,176 @@
+body, h1, h2, h3, h4, h5, h6, html{
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+    width:620px;
+    padding: 20px;
+    margin: auto;
+}
+
+#wrapper{
+    border:5px #666 solid;
+    padding: 40px;
+}
+
+#header{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+#header h1{
+    color:#fff;
+    font-family: 'Times', serif;
+    font-style: italic;
+    font-weight: 100;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+#header ul{
+    margin: 0;
+    padding: 0;
+}
+
+#header ul li {
+    list-style-image: none;
+    display: inline;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+   
+}
+
+a{
+    color: aquamarine;
+}
+
+#header hr{
+    border-bottom-color: #666;
+    margin-top: 30px;
+}
+
+#aboutme{
+    color: #fff;
+}
+
+#aboutme h1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#aboutme p{
+    font-family: 'Times', serif;
+    font-size: 15px;
+    line-height: 22px;    
+}
+
+#aboutme img{
+    border: 1px #666 solid;
+    padding: 5px;
+    float: right;
+    margin:20px 0 15px 30px;
+    width:230px;
+}
+
+#aboutme hr{
+    border-bottom-color: #666;
+    margin-top: 30px;
+}
+
+#nav{
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 100;
+}
+
+#social ul{
+    margin: 0;
+    padding: 0;
+}
+
+#social ul li {
+    list-style-image: none;
+    display: inline;
+     font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #fff;
+}
+
+#current-menu-item{
+    color: #fff;
+    text-decoration: none;
+}
+
+#resume h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+#resume p{
+    font-family: 'Times', serif;
+    font-size: 15px;
+    line-height: 22px;  
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+#resume h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+#resume ul li{
+    list-style-type: square;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+#resume ul li span.course{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#resume ul li span.school{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#resume ul li span.date{
+    color: #999;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#resume ul li span.about{
+    color: #999;
+    font-family: 'Times', serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#resume hr{
+    border-bottom-color: #666;
+    margin-top: 30px;
+}
+
+.padding{
+    padding-top: 20px;
+}
